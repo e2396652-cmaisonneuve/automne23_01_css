@@ -1,0 +1,131 @@
+/* 
+
+Palette de couleurs
+
+#F4F5F0 - Baby Powder (BG)
+#12130F - Night (text)
+#003049 - Prussian Blue (titles)
+#0452b4 - Sapphire (links)
+#780000 - Barn Red (visited links)
+
+Échelle typographique 
+
+1em
+1.25em
+1.563em
+1.953em
+2.441em
+3.052em
+
+*/
+
+html {
+	background-color: #F4F5F0;
+	color: #12130F;
+	font-family: 'DM Sans', sans-serif; 
+
+}
+
+main {
+	padding: 100px;
+}
+
+header {
+	display: inline-flex;
+	line-height: 1.25em;
+}
+
+figure {
+	margin: 0px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.namebox {
+	padding: 30px 30px;
+}
+
+
+h1, h2, h3 {
+	color: #003049;
+}
+
+h1 {
+	font-size: 3.052rem; /* 3.052 fois la valeur *racine* (16px, ici) des caractères */
+	font-weight: 900;
+	margin: 0;
+	padding: 0;
+	line-height: 3.052rem; /* 3.052 fois la valeur *racine* (16px, ici) des caractères */
+	
+}
+
+h2 {
+	font-size: 1.953rem; /* 1.953 fois la valeur *racine* (16px, ici) des caractères */
+	font-weight: 700;
+	padding-top: 20px;
+}
+
+h3 {
+	font-size: 1.25em; /* 1.25em fois la valeur *racine* (16px, ici) des caractères */
+	font-weight: 500;
+}
+
+strong {
+	font-weight: 600;
+}
+
+
+a:link {
+	color: #0452b4;
+}
+
+
+a:visited {
+	color: #780000;
+}
+
+
+a:hover {
+	color: #FFFFFF;
+	background: #0452b4;
+	text-decoration: none;
+}
+
+a:active {
+	color: #FFF;  
+}
+
+article {
+	max-width:50em;
+}
+
+ul, ol {
+	padding-left: 1.06125em;
+}
+
+ol li {
+	margin-bottom: 10px;
+}
+
+footer {
+	display:inline-flex;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	border-top: solid;
+	border-top-width: 1px;
+
+}
+
+.social {
+	text-align: right;
+	width: 50%;
+	padding: 20px;
+}
+
+.copyright {
+	text-align: left;
+	width: 50%;
+	padding: 20px;
+}
+
